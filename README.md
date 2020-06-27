@@ -1,6 +1,7 @@
 # ESLint Rules
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-Some opinionated rules on how to lint a Javascript project
+Some opinionated ESLint rules.
 
 To install: 
 
@@ -15,5 +16,3 @@ To use, add the following to `.eslintrc.json`:
   "extends": ["@davidgarvie"]
 }
 ```
-
-Note, these are mainly prettier and basic ESLint rules. I simply got bored of configuring linting rules on every new project.
