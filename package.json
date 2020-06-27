@@ -1,0 +1,43 @@
+{
+  "name": "@davidgarvie/eslint-config",
+  "version": "0.0.0-development",
+  "description": "Opnionated ESLint rules for javascript projects",
+  "scripts": {
+    "lint": "eslint -c index.js index.js",
+    "lint:fix": "eslint -c index.js index.js --fix",
+    "semantic-release": "semantic-release"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidgarvie/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "David Garvie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgarvie/eslint-config/issues"
+  },
+  "homepage": "https://github.com/davidgarvie/eslint-config#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-prettier": ">= 3"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.1.1"
+  }
+}
