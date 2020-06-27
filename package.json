@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "Opnionated ESLint rules for javascript projects",
   "scripts": {
+    "commit": "git cz",
     "lint": "eslint -c index.js index.js",
     "lint:fix": "eslint -c index.js index.js --fix",
     "semantic-release": "semantic-release"
@@ -24,13 +25,7 @@
     "url": "https://github.com/davidgarvie/eslint-config/issues"
   },
   "homepage": "https://github.com/davidgarvie/eslint-config#readme",
-  "dependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": ">= 6",
     "eslint-config-prettier": ">= 6",
@@ -38,6 +33,23 @@
     "eslint-plugin-prettier": ">= 3"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
     "semantic-release": "^17.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   }
 }
