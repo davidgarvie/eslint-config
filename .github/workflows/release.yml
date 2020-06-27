@@ -5,30 +5,18 @@ on:
       - master
 
 jobs:
-  install:
-    name: Install
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-
     - name: Install dependencies
       run: npm ci
-
-  lint:
-    name: Lint
-    runs-on: ubuntu-18.04      
-    needs: install
-    steps:
-    - name: Lint Codebase
+    - name: Lint codebase
       run: npm run lint
-
-  release:
-    name: Release
-    runs-on: ubuntu-18.04
-    needs: lint
-    steps:
-    - env:
+    - name: Semantic release
+      env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}        
       run: npx semantic-release
