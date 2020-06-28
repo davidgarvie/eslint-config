@@ -30,7 +30,7 @@
   "homepage": "https://github.com/davidgarvie/eslint-config#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "6.x",
+    "eslint": "6.x || 7.x",
     "eslint-config-prettier": "6.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-prettier": "3.x",
@@ -40,7 +40,7 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "cz-conventional-changelog": "^3.2.0",
-    "eslint": "^6.8.0",
+    "eslint": "7.3.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
