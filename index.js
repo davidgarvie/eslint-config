@@ -22,7 +22,6 @@ module.exports = {
     "dot-notation": "error",
     eqeqeq: ["error", "always"],
     "guard-for-in": "error",
-    "no-constructor-return": "error",
     "no-else-return": "error",
     "no-eval": "error",
     "no-extend-native": "error",
