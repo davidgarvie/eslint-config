@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/davidgarvie/eslint-config/compare/v1.2.0...v1.3.0) (2020-06-28)
+
+
+### Features
+
+* remove no magic numbers eslint rule ([eb76606](https://github.com/davidgarvie/eslint-config/commit/eb76606ffab4538716839febb676fcbb6e9a5a05))
+
 # [1.2.0](https://github.com/davidgarvie/eslint-config/compare/v1.1.2...v1.2.0) (2020-06-28)
 
 
