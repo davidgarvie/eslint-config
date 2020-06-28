@@ -30,11 +30,11 @@
   "homepage": "https://github.com/davidgarvie/eslint-config#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": ">= 6",
-    "eslint-config-prettier": ">= 6",
-    "eslint-plugin-import": ">= 2",
-    "eslint-plugin-prettier": ">= 3",
-    "prettier": ">= 2"
+    "eslint": "6.x",
+    "eslint-config-prettier": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-prettier": "3.x",
+    "prettier": "2.x"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
