@@ -28,7 +28,6 @@ module.exports = {
     "no-floating-decimal": "error",
     "no-implicit-globals": "error",
     "no-implied-eval": "error",
-    "no-magic-numbers": "error",
     "no-multi-str": "error",
     "no-param-reassign": "error",
     "no-proto": "error",
