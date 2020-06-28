@@ -18,7 +18,7 @@ module.exports = {
     "consistent-return": "error",
     curly: "error",
     "default-case": "error",
-    "dot-location": "error",
+    "dot-location": ["error", "property"],
     "dot-notation": "error",
     eqeqeq: ["error", "always"],
     "guard-for-in": "error",
