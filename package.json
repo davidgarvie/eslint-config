@@ -9,6 +9,7 @@
     "semantic-release": "semantic-release"
   },
   "main": "index.js",
+  "files": ["index.js"],
   "publishConfig": {
     "access": "public"
   },
