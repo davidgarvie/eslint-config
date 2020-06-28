@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/davidgarvie/eslint-config/compare/v1.1.1...v1.1.2) (2020-06-28)
+
+
+### Bug Fixes
+
+* remove no-constructor-return rule ([798996a](https://github.com/davidgarvie/eslint-config/commit/798996a4fc8e06b305c8810a98e263cf814ced3f))
+
 ## [1.1.1](https://github.com/davidgarvie/eslint-config/compare/v1.1.0...v1.1.1) (2020-06-28)
 
 
