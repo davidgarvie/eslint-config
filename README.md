@@ -10,7 +10,7 @@ npm install @davidgarvie/eslint-config -D
 npx install-peerdeps @davidgarvie/eslint-config -D
 ```
 
-To use, add the following to `.eslintrc.json`:
+To use, configure ESLint with the following code:
 ```json
 {
   "extends": ["@davidgarvie"]
