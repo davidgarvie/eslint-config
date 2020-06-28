@@ -6,8 +6,8 @@ Some opinionated ESLint rules.
 To install: 
 
 ```bash
-npm install @davidgarvie/eslint-config --save-dev
-npx install-peerdeps @davidgarvie/eslint-config --save-dev
+npm install @davidgarvie/eslint-config -D
+npx install-peerdeps @davidgarvie/eslint-config -D
 ```
 
 To use, add the following to `.eslintrc.json`:
