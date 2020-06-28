@@ -9,7 +9,9 @@
     "semantic-release": "semantic-release"
   },
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -35,6 +37,7 @@
     "prettier": ">= 2"
   },
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
@@ -53,5 +56,15 @@
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
   }
 }
