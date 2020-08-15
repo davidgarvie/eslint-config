@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/davidgarvie/eslint-config/compare/v1.3.0...v1.4.0) (2020-08-15)
+
+
+### Features
+
+* update config to support ecma version 8 ([25900d9](https://github.com/davidgarvie/eslint-config/commit/25900d9613217b3519ea94318c7c2bf1f4d318bf))
+
 # [1.3.0](https://github.com/davidgarvie/eslint-config/compare/v1.2.0...v1.3.0) (2020-06-28)
 
 
